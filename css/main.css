@@ -23,22 +23,22 @@ figcaption {
 }
 
 nav {
-  font-family: 'PT Sans', sans-serif;
-  font-weight: normal;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
   font-size: 1rem;
 }
 
 nav {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-weight: normal;
   font-size: 1rem;
-}
 
-nav ol {
+nav ol {}
   list-style-type: none;
-}
 
-a nav {
+
+
+nav a {
   color: #793284;
   text-decoration: none;
 }
@@ -46,4 +46,8 @@ a nav {
 nav a:hover {
   color: #b42885;
   text-decoration: underline;
+}
+
+.intro {
+  font-size: 1rem;
 }
