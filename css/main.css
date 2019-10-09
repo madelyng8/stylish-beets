@@ -1,6 +1,6 @@
 html {
   font-family: "PT Serif", serif;
-  background-color: #f2f1ed;
+  background-color: #c9b5ab;
   line-height: 1.5;
 }
 
@@ -10,12 +10,12 @@ img {
 
 h1, h2 {
   font-family: "PT Sans", sans-serif;
-  color: #5d8432;
-  text-transform: uppercase;
+  color: #3f1622;
+  font-size: 1.5rem;
 }
 
 figcaption {
-  font-size: .08rem;
+  font-size: 1rem;
   font-style: italic;
   text-align: center;
 }
@@ -31,12 +31,12 @@ nav a {
 }
 
 a {
-  color: #793284;
+  color: #8f2440;
   text-decoration: none;
 }
 
 a:hover {
-  color: #8f2440;
+  color: #222;
   text-decoration: underline;
 }
 
