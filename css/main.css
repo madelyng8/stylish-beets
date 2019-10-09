@@ -1,6 +1,6 @@
 html {
+  font-family: "PT Serif", serif;
   background-color: #f2f1ed;
-  font-family: Georgia, serif;
   line-height: 1.5;
 }
 
@@ -8,46 +8,42 @@ img {
   width: 100%;
 }
 
-h1, h2, h3 {
-  font-family: "Patua One", sans-serif;
-
+h1, h2 {
+  font-family: "PT Sans", sans-serif;
   color: #5d8432;
   text-transform: uppercase;
 }
 
 figcaption {
-  font-size: .8rem;
+  font-size: .08rem;
   font-style: italic;
   text-align: center;
-  font-family: "Patua One", sans-serif;
 }
 
 nav {
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 
-nav {
-  font-family: "PT Serif", serif;
-  font-weight: normal;
-  font-size: 1rem;
-
-nav ol {}
-  list-style-type: none;
-
-
-
 nav a {
+  list-style-type: none;
+}
+
+a {
   color: #793284;
   text-decoration: none;
 }
 
-nav a:hover {
-  color: #b42885;
+a:hover {
+  color: #8f2440;
   text-decoration: underline;
 }
 
 .intro {
   font-size: 1rem;
+}
+
+strong {
+  font-weight: normal;
 }
